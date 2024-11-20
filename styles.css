@@ -1,0 +1,274 @@
+/* Centrado de vista */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap'); //font-family: 'Roboto', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap&subset=latin-ext,vietnamese'); // font-family: 'Anton', sans-serif;
+
+html {
+    height: 100%;
+    background: linear-gradient(to right,#FFFFFF, #4A93A7)
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    background: linear-gradient(to right,#FFFFFF, #4A93A7) no-repeat;
+  }
+
+.primaryBtn {
+    background: linear-gradient(to right, white, #4A93A7);
+    color: #fff;
+    border: 0 none;
+    font-weight: 700;
+    padding: 10px 500px;
+    border-radius: 35px;
+    transition: all 150s;
+    font-size: 2em;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper .pattern {
+    position: absolute;
+    left: 40%;
+    width:55%;
+    height: 15%;
+    background-image: url(https://i.ibb.co/hXXPm8T/linebg2.png);
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -1;
+    background-position: center center;
+    margin-top: -60px;
+}
+
+.wrapper .nav {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+}
+
+
+.wrapper .nav .infinite {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    width: 15%;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+.wrapper .nav .menu {
+    position: absolute;
+    top: -30%;
+    right: 5%;
+    font-size: 22px;
+}
+
+.wrapper .nav .menu ul {
+    margin: 0;
+}
+
+.wrapper .nav .menu ul li {
+    display: inline-block;
+    margin: 0px 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.wrapper .nav .menu ul li:hover {
+    color: #4A93A7;
+}
+
+/* Carrito */
+.wrapper .nav .cart {
+    position: absolute;
+    top: 27%;
+    right: 5%;
+    font-size: 28px;
+}
+
+
+.wrapper .box {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: -1;
+}
+
+.wrapper .box.box1 {
+    top: 28%;
+    left: 12%;
+    border: 5px solid #4A93A7;
+    transform: rotate(45deg);
+}
+
+.wrapper .box.box2 {
+    top: 60%; 
+    left: 13%;
+    border: 15px solid #4A93A7;
+    transform: rotate(45deg);
+}
+
+
+.staricon1  {
+    position: absolute; 
+    top: 20%; 
+    left: 60%; 
+    transform: rotate(45deg); 
+    font-size: 100px; 
+    color: #4A93A7; 
+    cursor: pointer; 
+}
+.staricon2  {
+    position: absolute; 
+    top: 20%; 
+    left: 70%; 
+    transform: rotate(45deg); 
+    font-size: 100px; 
+    color: #4A93A7; 
+    cursor: pointer; 
+}
+
+.staricon3  {
+    position: absolute;
+    top: 20%; 
+    left: 80%; 
+    transform: rotate(45deg); 
+    font-size: 100px; 
+    color: #4A93A7; 
+    cursor: pointer; 
+}
+
+
+.wrapper .title1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 5em;
+    color: black;
+    position: absolute;
+    top: 64%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.wrapper .title2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 5em;
+    color: black;
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.wrapper .nadador {
+    width: 40%;
+    left: 48%;
+    height: 30%;
+    position: absolute;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper .nadador img {
+    width: 60%;
+}
+
+
+.wrapper .content {
+    position: absolute;
+    width: 35%;
+    bottom: 15%;
+    right: 16%;
+    text-align: right;
+    font-size: 15px;
+}
+.wrapper .content .especialista{
+    font-size: 22px;
+
+}
+
+.wrapper .content button {
+    background:  #4A93A7;
+    color: #fff;
+    border: 0 none;
+    font-weight: 700;
+    padding: 10px 18px;
+    border-radius: 35px;
+    transition: all 0.6s;
+    letter-spacing: 2px;
+}
+
+.wrapper .content button:focus {
+    transform: scale(1.1);
+}
+
+.wrapper .content button:hover {
+    background: linear-gradient(to top left, #4A93A7, rgb(91, 192, 219));
+    transform: scale(1.1);
+}
+
+ .media {
+    margin: 0;
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    width:2%;
+}
+
+.media ul li {
+    font-size: 24px;
+    cursor: pointer;}
+
+
+.media ul li:hover {
+    color: #4A93A7;
+}
+
+.media ul {
+    list-style-type: none;
+    padding-left: 0; 
+}
+
+.logo-facebook, .logo-instagram, .logo-twitter {
+    width: 40px;
+}
+
+.logo-facebook {
+ transform: translateY(-10px);
+}
+
+.logo-instagram {
+    transform: translateY(-5px);
+}
+
+.logo-youtube {
+    width: 70px;
+    margin-left: -15px;
+    margin-top: -12px; 
+}
+
+.title3 { background: #4A93A7;
+    color: #fff;
+    border: 0;
+    padding: 10px 50px;
+    border-radius: 35px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 15%;
+    margin-top:40px;
+    cursor: pointer;
+    margin-left:-1150px;
+}
